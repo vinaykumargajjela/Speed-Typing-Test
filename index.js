@@ -38,7 +38,7 @@ let timerId = setInterval(function() {
 }, 1000);
 
 resetBtnE1.addEventListener("click", function() {
-    quoteInputE1="";
+    quoteInputE1.value="";
     counter = 0;
     clearInterval(timerId);
     timerId = setInterval(function() {
